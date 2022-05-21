@@ -1,0 +1,18 @@
+.title-section{
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px 0;
+}
+
+.title-section-title{
+    font-size: 22px;
+    color: #282c34;
+    font-family: iransans_medium;
+}
+.title-section-line{
+    background-color: #3a8bcd;
+    height: 5px;
+    width: 50px;
+    margin-top: 10px;
+}

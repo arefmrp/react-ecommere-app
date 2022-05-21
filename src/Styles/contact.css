@@ -1,0 +1,57 @@
+.contact-section-map{
+    width: 100%;
+    background-color: #3a8bcd;
+    height: 400px;
+}
+
+.input-cs-name{
+    display: inline;
+    min-width: 48%;
+    padding: 15px 10px;
+   margin-left: 15px;
+    border: none;
+    background-color: rgba(0,0,0,0.02);
+    outline: none;
+    direction: rtl;
+}
+.input-cs-email{
+    display: inline;
+    min-width: 48%;
+    padding: 15px 10px;
+   margin-left: 5px;
+    border: none;
+    background-color: rgba(0,0,0,0.02);
+    outline: none;
+    direction: rtl;
+}
+.input-cs-subject{
+    display: block;
+    width: 98%;
+    padding: 15px 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: rgba(0,0,0,0.02);
+    outline: none;
+}
+input::placeholder{
+    font-size: 16px;
+    font-family: iransans_light;
+}
+.input-cs-textarea{
+    width: 98%;
+    border: none;
+    background-color: rgba(0,0,0,0.02);
+    outline: none;
+    height: 200px;
+    padding: 10px;
+}
+.input-cs-btn{
+    min-width: 250px;
+    background-color: #3a8bcd;
+    color: #ffffff;
+    font-family: iransans_light;
+    font-size: 16px;
+    padding: 7px 2px;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,41 @@
+
+.card-cs{
+    margin: 3px;
+    border-radius: 0;
+}
+
+.card-body-cs{
+    padding: 0;
+    border-radius: 0;
+}
+
+.card-cs-image{
+    width: 100%;
+    height: 250px;
+    padding: 0;
+}
+.card-cs-image:hover{
+    transition: 300ms ease all;
+    transform: scaleX(1.02);
+    cursor: pointer;
+}
+
+.card-footer-cs{
+    background-color: #ffffff !important;
+    border-top: none;
+    padding: 10px 5px;
+}
+.card-footer-cs-title{
+    font-family: iransans_light;
+    font-size: 22px;
+    color:#282c34 ;
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-footer-cs-price{
+    font-family: iransans_medium;
+    font-size: 19px;
+    color:#3a8bcd ;
+    width: 100%;
+    text-align: left;
+}

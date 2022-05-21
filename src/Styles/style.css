@@ -1,0 +1,19 @@
+@import "fonts.css";
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+    direction: rtl;
+    font-family: iransans;
+    height: 100vh;
+
+}
+.spinner-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

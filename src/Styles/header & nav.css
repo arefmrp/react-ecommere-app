@@ -1,0 +1,82 @@
+.header-top{
+    background-color: #3a8bcd;
+    width: 100%;
+    height: 50px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: iransans_light;
+    font-size: 17px;
+}
+.navbar-cs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.navbar-cs-logo{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #ffffff;
+    border-bottom: 2px solid #3a8bcd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-section{
+    width: 80px;
+    height: 35px;
+
+}
+.logo-section img{
+    width: 100%;
+    height: 100%;
+}
+.menu-btn-section{
+    cursor: pointer;
+    display: none;
+}
+
+.menu-btn-section i{
+    color: #3a8bcd;
+    font-size: 25px;
+    padding: 5px 8px;
+    border: 2px solid #3a8bcd;
+    border-radius: 3px;
+}
+.navbar-cs-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+
+}
+.navbar-cs-item{
+    padding: 10px 5px;
+}
+.navbar-cs-link{
+    padding: 10px 5px;
+    text-decoration: none;
+    color: #282c34;
+    font-size: 18px;
+    font-family: iransans_medium;
+}
+.navbar-cs-link:hover{
+    transition: 200ms ease all;
+    color: #3a8bcd;
+}
+.navbar-cs-item:nth-child(1) > .navbar-cs-link{
+    color: #3a8bcd;
+}
+.badge-cs{
+    background-color: #3a8bcd;
+    height: 13px;
+    width: 15px;
+    color: #fafafa;
+    font-size: 13px;
+    padding: 1px 7px;
+    border-radius: 50%;
+}

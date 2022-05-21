@@ -1,0 +1,138 @@
+.basket-items-title{
+    font-size: 18px;
+    font-family: iransans_medium;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    color: #212529;
+    border-bottom: 1px solid #3a8bcd;
+}
+.basketProduct-item{
+    margin: 5px 0;
+    padding: 5px 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 300ms ease all;
+    border-bottom: 1px solid #f1f1f1;
+
+}
+.basketProduct-item:hover{
+    transition: 300ms ease all;
+    box-shadow: 1px 1px 1px 1px #f1f1f1;
+}
+.basketProduct-item-image{
+    height: 100px;
+    width: 100px;
+}
+.basketProduct-item-image img{
+    height: 100%;
+    width: 100%;
+}
+.basketProduct-item-name{
+    font-family: iransans_light;
+    font-size: 16px;
+}
+.basketProduct-item-counter{
+    font-family: iransans_light;
+    font-size: 16px;
+    color: #212529;
+
+}
+.process-basket-section{
+    border-right: 1px solid #3a8bcd;
+
+
+}
+.basketProduct-item-counter form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.basketProduct-item-counter input{
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    vertical-align: center;
+    text-align: center;
+}
+.basketProduct-item-counter button{
+    vertical-align: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    color: #f1f1f1;
+    background-color: #3a8bcd;
+    border: none;
+}
+.basketProduct-item-price{
+    font-family: iransans_light;
+    font-size: 16px;
+    color: #212529;
+}
+.basketProduct-item-icon i{
+    color: #3a8bcd !important;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.form-item label{
+    font-size: 17px;
+    font-family: iransans_medium;
+    color: #212529;
+}
+.form-item-cs{
+    width: 100%;
+    background-color: #fafafa;
+    border: none;
+    outline: #3a8bcd;
+    height: 50px;
+    padding: 5px 10px;
+
+}
+ .form-item select {
+     padding: 10px 0 !important;
+     font-size: 14px !important;
+
+     font-family: iransans_light;
+ }
+ .form-item select option{
+   padding: 10px 0 !important;
+     font-size: 15px;
+     color: #3a8bcd;
+     font-family: iransans_light;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ .basket-button-cs{
+     width: 150px;
+     height: 40px;
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #3a8bcd;
+     color: #fafafa;
+     font-size: 17px;
+     font-family: iransans_medium;
+     margin: 10px auto;
+     border: none;
+     outline: none;
+     transition: 300ms ease all;
+
+ }
+ .basket-button-cs:hover{
+     opacity: 0.7;
+     transition: 300ms ease all;
+
+ }

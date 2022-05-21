@@ -1,0 +1,15 @@
+.nav-pills-cs .nav-link{
+    color: #282c34 !important;
+    font-size: 16px;
+    font-family: iransans_medium;
+}
+
+.nav-pills-cs .active{
+    background-color: #fff !important;
+    color: #3a8bcd !important;
+
+
+}
+.tab-content-cs{
+    margin: 30px 0 10px;
+}

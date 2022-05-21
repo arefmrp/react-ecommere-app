@@ -1,14 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React , {Suspense}from 'react';
+import ReactDOM from 'react-dom';
+import {Provider} from "react-redux";
+import Store from "./redux/Reducers/reducer";
+import App from './Components/App';
 import reportWebVitals from './reportWebVitals';
+import Spinner from "./Components/Spinner";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+ReactDOM.render(
+    <React.StrictMode>
+        <Suspense fallback={Spinner}>
+            <Provider store={Store}>
+
+                <App />
+
+            </Provider>
+        </Suspense>
+    </React.StrictMode>,
+    document.getElementById('root')
+
 );
 
 // If you want to start measuring performance in your app, pass a function
